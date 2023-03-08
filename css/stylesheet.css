@@ -1,38 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 /* General Site Styles */
 
 body{
     font-family: "Montserrat";
+    background-color: #ffcab1;
 }
 
 nav{
-    background-color: rgb(187, 255, 232);
-
+   background-color: rgba(226,252,239,255);
+    padding-top: none;
 }
 
 nav ul{
     list-style: none;
 }
 
+a:visited{
+    color: inherit;
+}
+
+nav a:hover{
+    color: #352135;
+}
+
 nav ul{
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    padding-right: 10%;
-    font-size: 3rem;
-    
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+footer li{
+    background: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+nav li{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
 
 ul a{
 text-decoration: none;
 }
 
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    padding-top: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: #6e8894;
+    padding-bottom: 15px;
+}
+.whitetext{
+    color: white;
+}
+
+footer{
+    background-color: #352135;    ;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 /* Mobile Styles */
 @media (max-width: 768px) {
    body{
     font-size: 1.4rem;
+   }
+
+   .homepageimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    }
     
   }
