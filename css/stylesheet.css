@@ -50,7 +50,11 @@ table {
 
 
 
-/* General Site Styles */
+
+/* HOME STYLING */
+
+
+/* General Site Styles across all 3 pages */
 
 body{
     font-family: "Montserrat";
@@ -160,3 +164,175 @@ p{
    }
     
   }
+
+  /* Tablet Styles */
+
+  @media (max-width: 992px) and (min-width: 769px) {
+    .homepageimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       }
+
+       body{
+        font-size: 1.7rem;
+       }
+
+       .maintextcontainer{
+        margin-right: 50px;
+        margin-left: 50px;
+       }
+  }
+
+/* Desktop Styles */
+
+
+
+  @media (min-width: 993px) {
+    .maintextcontainer{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: auto ;
+        margin-left: auto;
+        max-width: 1200px;
+        
+    }
+
+    body{
+        font-size: 2rem;
+       }
+
+
+   .homepageimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  }
+
+
+
+
+  /* SERVICES STYLES */
+  
+
+/* General Site Styles */
+
+.servicestext2{
+    
+}
+
+
+
+
+
+  /* Mobile Styles */
+
+  @media (max-width: 768px) {
+    body{
+     font-size: 1.4rem;
+    }
+ 
+    .servicestext{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+    .servicesimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+       }
+}
+
+
+  /* Tablet Styles */
+
+  @media (max-width: 992px) and (min-width: 769px) {
+    .servicesimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:50px;
+       }
+       .servicestext{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    .servicescontainer{
+        margin-right: 10px;
+        margin-left: 10px;
+       }
+}
+
+/* Desktop Styles */
+@media (min-width: 993px) {
+    .servicescontainer{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: auto ;
+        margin-left: auto;
+        max-width: 900px;
+        
+    }
+
+    .servicesimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+       }
+
+       .servicestext{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+}
+}
+
+/*CONTACT STYLES */
+
+/* GENERIC SITE STYLES */
+
+.contacttext{
+    padding-bottom: 40px;
+}
+
+
+
+.contactlist{
+    padding-bottom: 40px;
+}
+
+form{
+    max-width: 95%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+form input[type=text] {
+    height: 30px;
+    margin-top: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    form input[id="message"] {
+        height: 150px;
+    }
+    
+    form [type=submit] {
+    
+        margin-top: 20px;
+      
+      
+    }
+
+    .contactheading{
+        border-top: 3px;
+        border-color: black;
+    }

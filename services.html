@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class>
             <ul>
                 <li> <a href="index.html"> Home </a> </li>
                 <li> <a href="contact.html"> Contact </a>  </li>
             </ul>
         </nav>
     </header>
-        <main>
-            <h2> Service 1 ! </h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec tincidunt. At in tellus integer feugiat scelerisque varius. Fermentum odio eu feugiat pretium. Et leo duis ut diam quam nulla porttitor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Platea dictumst quisque sagittis purus sit amet volutpat. In ornare quam viverra orci sagittis eu. Elementum eu facilisis sed odio. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Pulvinar mattis nunc sed blandit. Eget nulla facilisi etiam dignissim diam quis. At varius vel pharetra vel turpis nunc. Varius sit amet mattis vulputate. Arcu dui vivamus arcu felis. </p>
 
+    <div class="servicescontainer">
+        <h2> Service 1 ! </h2>
+        <p class="servicestext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec tincidunt. At in tellus integer feugiat scelerisque varius. Fermentum odio eu feugiat pretium. Et leo duis ut diam quam nulla porttitor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Platea dictumst quisque sagittis purus sit amet volutpat. In ornare quam viverra orci sagittis eu. Elementum eu facilisis sed odio. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Pulvinar mattis nunc sed blandit. Eget nulla facilisi etiam dignissim diam quis. At varius vel pharetra vel turpis nunc. Varius sit amet mattis vulputate. Arcu dui vivamus arcu felis. </p>
+    </div>
+
+        <main class="servicescontainer">
             <picture> 
-                <img src="https://dummyimage.com/600x400/" alt="">
+                <source srcset="https://dummyimage.com/500x300" media="(max-width: 768px)">
+                <source srcset="https://dummyimage.com/700x500" media="(min-width: 769px)">
+                <img class="servicesimage" src="https://dummyimage.com/600x400/" alt="">
             </picture>
 
-            <h2> Service 2 ! </h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec tincidunt. At in tellus integer feugiat scelerisque varius. Fermentum odio eu feugiat pretium. Et leo duis ut diam quam nulla porttitor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Platea dictumst quisque sagittis purus sit amet volutpat. In ornare quam viverra orci sagittis eu. Elementum eu facilisis sed odio. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Pulvinar mattis nunc sed blandit. Eget nulla facilisi etiam dignissim diam quis. At varius vel pharetra vel turpis nunc. Varius sit amet mattis vulputate. Arcu dui vivamus arcu felis. </p>
+            <h2 class="whitetext"> Service 2 ! </h2>
+            <p class="whitetext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec tincidunt. At in tellus integer feugiat scelerisque varius. Fermentum odio eu feugiat pretium. Et leo duis ut diam quam nulla porttitor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Platea dictumst quisque sagittis purus sit amet volutpat. In ornare quam viverra orci sagittis eu. Elementum eu facilisis sed odio. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Pulvinar mattis nunc sed blandit. Eget nulla facilisi etiam dignissim diam quis. At varius vel pharetra vel turpis nunc. Varius sit amet mattis vulputate. Arcu dui vivamus arcu felis. </p>
         </main>
-            <footer>
-                <a href="#" class="fa fa-twitter"> </a>
-                <a href="#" class="fa fa-facebook"> </a> 
-                <a href="#" class="fa fa-instagram"> </a> 
+
+        <footer>
+            <ul>
+            <li><a href="https://twitter.com/?lang=en" class="fa fa-twitter"> </a></li>
+           <li>  <a href="https://www.facebook.com/" class="fa fa-facebook"> </a> </li>
+           <li> <a href="https://www.instagram.com/" class="fa fa-instagram"> </a> </li>
+         </ul>
         </footer>
 </body>
 </html>
