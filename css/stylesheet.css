@@ -66,6 +66,10 @@ nav{
     padding-top: none;
 }
 
+a{
+    color: inherit;
+}
+
 nav ul{
     list-style: none;
 }
@@ -75,7 +79,7 @@ a:visited{
 }
 
 nav a:hover{
-    color: #352135;
+    color: #6e8894;
 }
 
 nav ul{
@@ -179,8 +183,8 @@ p{
        }
 
        .maintextcontainer{
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
        }
   }
 
@@ -215,15 +219,6 @@ p{
 
 
   /* SERVICES STYLES */
-  
-
-/* General Site Styles */
-
-
-
-
-
-
 
   /* Mobile Styles */
 
@@ -373,3 +368,4 @@ form input[type=text] {
         max-width: 900px;
     }
 }
+/* CSS ANIMATION */

@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation">
             <ul>
-                <li> <a href="index.html"> Home </a> </li>
-                <li> <a href="services.html"> Services </a>  </li>
+                <li> <a href="index.html" aria-label="Go to Home page"> Home </a> </li>
+                <li> <a href="services.html" aria-label="Go to Services page"> Services </a>  </li>
             </ul>
         </nav>
     </header>
-    <section>
-        <h2> F.A.Q </h2>
+    <section role="main">
+        <h2 role="heading"> F.A.Q </h2>
 
         <div class="contactcontainer">
         <p class="contacttext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum posuere urna nec tincidunt. At in tellus integer feugiat scelerisque varius. Fermentum odio eu feugiat pretium. Et leo duis ut diam quam nulla porttitor. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Platea dictumst quisque sagittis purus sit amet volutpat. In ornare quam viverra orci sagittis eu. Elementum eu facilisis sed odio. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Pulvinar mattis nunc sed blandit. Eget nulla facilisi etiam dignissim diam quis. At varius vel pharetra vel turpis nunc. Varius sit amet mattis vulputate. Arcu dui vivamus arcu felis. </p>
@@ -35,9 +35,8 @@
             <li> 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
         </ul>
     </section>
-    <h2 class="contactheadings"> Contact ! </h2>
-    <main>
-        
+    <h2 role="heading" class="contactheadings"> Contact ! </h2>
+    <main role="form">
         <form>
             <label class="whitetext" for="fullname">Full Name</label>
             <input type="text" id="fullname" name="fullname" >
@@ -50,7 +49,7 @@
         </main>
     </div>
 
-    <footer>
+    <footer role="contentinfo">
         <ul>
         <li><a href="https://twitter.com/?lang=en" class="fa fa-twitter"> </a></li>
        <li>  <a href="https://www.facebook.com/" class="fa fa-facebook"> </a> </li>
